@@ -10,17 +10,18 @@ import { Controller, useForm } from "react-hook-form";
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyDGogx5meMI1YGLl73BVsHw9gYeTX072SY",
-  authDomain: "belajar-firebase-12036.firebaseapp.com",
-  projectId: "belajar-firebase-12036",
-  storageBucket: "belajar-firebase-12036.appspot.com",
-  messagingSenderId: "875920946945",
-  appId: "1:875920946945:web:886638735f3c384e770d00",
-  measurementId: "G-FE91CE3L7R",
-};
+
 
 export default function LoginPage() {
+  const firebaseConfig = {
+    apiKey: "AIzaSyC94OwztWtRCUO-Fo8hA9aMRwOcjA_uZDA",
+    authDomain: "learning-da22f.firebaseapp.com",
+    projectId: "learning-da22f",
+    storageBucket: "learning-da22f.appspot.com",
+    messagingSenderId: "664934109614",
+    appId: "1:664934109614:web:60321327d780c536cf783f",
+    measurementId: "G-31P3GDXR9C"
+  };
   const router = useRouter();
 
   const { control, handleSubmit } = useForm({
